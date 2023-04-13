@@ -61,3 +61,45 @@ img {
     max-width: 1200px;
   }
 }
+
+/* Header */
+
+.nav {
+  display: flex;
+}
+
+.logo {
+  color: var(--text-color);
+  font-style: italic;
+  font-weight: 700;
+
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.logo-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-link {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.contacts-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.contacts-list {
+  display: flex;
+}
